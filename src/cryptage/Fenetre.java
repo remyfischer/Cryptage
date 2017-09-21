@@ -132,7 +132,7 @@ public class Fenetre extends javax.swing.JFrame {
             else if (tab[i] == 'é') tab[i] = 'à';
             else if (tab[i] == 'à') tab[i] = 'é';
             else if (tab[i] == 'è') tab[i] = 'ç';
-            else if (tab[i] == 'ç') tab[i] = 'à';
+            else if (tab[i] == 'ç') tab[i] = 'è';
             
             cryptage = cryptage+tab[i];
             
