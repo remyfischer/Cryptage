@@ -89,7 +89,8 @@ public class Fenetre extends javax.swing.JFrame {
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         
-        String texte = jTextField2.getText();
+        String texteRecup = jTextField2.getText();
+        String texte = texteRecup.toLowerCase();
         int a = texte.length();
         char[] tab = new char[a];
         
